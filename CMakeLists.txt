@@ -13,23 +13,19 @@ add_subdirectory(lib/SDL)
 include_directories(lib/glad/include/glad)
 include_directories(lib/glad/include/KHR)
 include_directories(lib/imgui)
-include_directories(lib/imgui/backends)
+#include_directories(lib/imgui/backends)
 include_directories(src)
 
 set(LIB_SOURCES
-  lib/imgui/imgui.cpp
-  lib/imgui/imgui_draw.cpp
-  lib/imgui/imgui_tables.cpp
-  lib/imgui/imgui_widgets.cpp
-  lib/imgui/imgui_demo.cpp
-  lib/imgui/backends/imgui_impl_sdl3.cpp
-  lib/imgui/backends/imgui_impl_opengl3.cpp
+  lib/cimgui/imgui.cpp
+  lib/cimgui/imgui_impl.cpp
 
   lib/glad/src/glad.c
 )
 
 add_executable(${PROJECT_NAME}
-  src/source.cpp
+  src/source.c
+  src/window.c
 
   ${LIB_SOURCES}
 )
