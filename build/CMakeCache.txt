@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Enable compilation of a test unit based on imgui null
+CIMGUI_TEST:STRING=no
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -319,6 +322,12 @@ GenaXIDE_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 GenaXIDE_SOURCE_DIR:STATIC=/Users/qyour/Documents/GenXIDE
 
+//Build with freetype library
+IMGUI_FREETYPE:STRING=no
+
+//Build as a static library
+IMGUI_STATIC:STRING=no
+
 //Extra compile options of LibUSB
 LibUSB_COMPILE_OPTIONS:STRING=
 
@@ -595,6 +604,15 @@ SDL_WERROR:BOOL=OFF
 
 //Use X11 video driver
 SDL_X11:BOOL=OFF
+
+//Value Computed by CMake
+cimgui_BINARY_DIR:STATIC=/Users/qyour/Documents/GenXIDE/build/lib/cimgui
+
+//Value Computed by CMake
+cimgui_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+cimgui_SOURCE_DIR:STATIC=/Users/qyour/Documents/GenXIDE/lib/cimgui
 
 
 ########################

@@ -113,7 +113,7 @@ lib/SDL/clean: lib/SDL/CMakeFiles/SDL_uclibc.dir/clean
 CMakeFiles/GenaXIDE.dir/all: lib/SDL/CMakeFiles/SDL3-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=1,2,3 "Built target GenaXIDE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=1 "Built target GenaXIDE"
 .PHONY : CMakeFiles/GenaXIDE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -130,7 +130,7 @@ GenaXIDE: CMakeFiles/GenaXIDE.dir/rule
 # codegen rule for target.
 CMakeFiles/GenaXIDE.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target GenaXIDE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=1 "Finished codegen for target GenaXIDE"
 .PHONY : CMakeFiles/GenaXIDE.dir/codegen
 
 # clean rule for target.
@@ -145,12 +145,12 @@ CMakeFiles/GenaXIDE.dir/clean:
 lib/SDL/CMakeFiles/SDL3-shared.dir/all: lib/SDL/CMakeFiles/SDL_uclibc.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/SDL/CMakeFiles/SDL3-shared.dir/build.make lib/SDL/CMakeFiles/SDL3-shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/SDL/CMakeFiles/SDL3-shared.dir/build.make lib/SDL/CMakeFiles/SDL3-shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target SDL3-shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target SDL3-shared"
 .PHONY : lib/SDL/CMakeFiles/SDL3-shared.dir/all
 
 # Build rule for subdir invocation for target.
 lib/SDL/CMakeFiles/SDL3-shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qyour/Documents/GenXIDE/build/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qyour/Documents/GenXIDE/build/CMakeFiles 95
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/SDL/CMakeFiles/SDL3-shared.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qyour/Documents/GenXIDE/build/CMakeFiles 0
 .PHONY : lib/SDL/CMakeFiles/SDL3-shared.dir/rule
@@ -162,7 +162,7 @@ SDL3-shared: lib/SDL/CMakeFiles/SDL3-shared.dir/rule
 # codegen rule for target.
 lib/SDL/CMakeFiles/SDL3-shared.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f lib/SDL/CMakeFiles/SDL3-shared.dir/build.make lib/SDL/CMakeFiles/SDL3-shared.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Finished codegen for target SDL3-shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Finished codegen for target SDL3-shared"
 .PHONY : lib/SDL/CMakeFiles/SDL3-shared.dir/codegen
 
 # clean rule for target.

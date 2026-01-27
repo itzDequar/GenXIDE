@@ -193,197 +193,53 @@ lib/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.s
 .PHONY : lib/glad/src/glad.c.s
 
-lib/imgui/backends/imgui_impl_opengl3.o: lib/imgui/backends/imgui_impl_opengl3.cpp.o
-.PHONY : lib/imgui/backends/imgui_impl_opengl3.o
-
-# target to build an object file
-lib/imgui/backends/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o
-.PHONY : lib/imgui/backends/imgui_impl_opengl3.cpp.o
-
-lib/imgui/backends/imgui_impl_opengl3.i: lib/imgui/backends/imgui_impl_opengl3.cpp.i
-.PHONY : lib/imgui/backends/imgui_impl_opengl3.i
-
-# target to preprocess a source file
-lib/imgui/backends/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.i
-.PHONY : lib/imgui/backends/imgui_impl_opengl3.cpp.i
-
-lib/imgui/backends/imgui_impl_opengl3.s: lib/imgui/backends/imgui_impl_opengl3.cpp.s
-.PHONY : lib/imgui/backends/imgui_impl_opengl3.s
-
-# target to generate assembly for a file
-lib/imgui/backends/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.s
-.PHONY : lib/imgui/backends/imgui_impl_opengl3.cpp.s
-
-lib/imgui/backends/imgui_impl_sdl3.o: lib/imgui/backends/imgui_impl_sdl3.cpp.o
-.PHONY : lib/imgui/backends/imgui_impl_sdl3.o
-
-# target to build an object file
-lib/imgui/backends/imgui_impl_sdl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o
-.PHONY : lib/imgui/backends/imgui_impl_sdl3.cpp.o
-
-lib/imgui/backends/imgui_impl_sdl3.i: lib/imgui/backends/imgui_impl_sdl3.cpp.i
-.PHONY : lib/imgui/backends/imgui_impl_sdl3.i
-
-# target to preprocess a source file
-lib/imgui/backends/imgui_impl_sdl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.i
-.PHONY : lib/imgui/backends/imgui_impl_sdl3.cpp.i
-
-lib/imgui/backends/imgui_impl_sdl3.s: lib/imgui/backends/imgui_impl_sdl3.cpp.s
-.PHONY : lib/imgui/backends/imgui_impl_sdl3.s
-
-# target to generate assembly for a file
-lib/imgui/backends/imgui_impl_sdl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.s
-.PHONY : lib/imgui/backends/imgui_impl_sdl3.cpp.s
-
-lib/imgui/imgui.o: lib/imgui/imgui.cpp.o
-.PHONY : lib/imgui/imgui.o
-
-# target to build an object file
-lib/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o
-.PHONY : lib/imgui/imgui.cpp.o
-
-lib/imgui/imgui.i: lib/imgui/imgui.cpp.i
-.PHONY : lib/imgui/imgui.i
-
-# target to preprocess a source file
-lib/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.i
-.PHONY : lib/imgui/imgui.cpp.i
-
-lib/imgui/imgui.s: lib/imgui/imgui.cpp.s
-.PHONY : lib/imgui/imgui.s
-
-# target to generate assembly for a file
-lib/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.s
-.PHONY : lib/imgui/imgui.cpp.s
-
-lib/imgui/imgui_demo.o: lib/imgui/imgui_demo.cpp.o
-.PHONY : lib/imgui/imgui_demo.o
-
-# target to build an object file
-lib/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o
-.PHONY : lib/imgui/imgui_demo.cpp.o
-
-lib/imgui/imgui_demo.i: lib/imgui/imgui_demo.cpp.i
-.PHONY : lib/imgui/imgui_demo.i
-
-# target to preprocess a source file
-lib/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.i
-.PHONY : lib/imgui/imgui_demo.cpp.i
-
-lib/imgui/imgui_demo.s: lib/imgui/imgui_demo.cpp.s
-.PHONY : lib/imgui/imgui_demo.s
-
-# target to generate assembly for a file
-lib/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.s
-.PHONY : lib/imgui/imgui_demo.cpp.s
-
-lib/imgui/imgui_draw.o: lib/imgui/imgui_draw.cpp.o
-.PHONY : lib/imgui/imgui_draw.o
-
-# target to build an object file
-lib/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o
-.PHONY : lib/imgui/imgui_draw.cpp.o
-
-lib/imgui/imgui_draw.i: lib/imgui/imgui_draw.cpp.i
-.PHONY : lib/imgui/imgui_draw.i
-
-# target to preprocess a source file
-lib/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.i
-.PHONY : lib/imgui/imgui_draw.cpp.i
-
-lib/imgui/imgui_draw.s: lib/imgui/imgui_draw.cpp.s
-.PHONY : lib/imgui/imgui_draw.s
-
-# target to generate assembly for a file
-lib/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.s
-.PHONY : lib/imgui/imgui_draw.cpp.s
-
-lib/imgui/imgui_tables.o: lib/imgui/imgui_tables.cpp.o
-.PHONY : lib/imgui/imgui_tables.o
-
-# target to build an object file
-lib/imgui/imgui_tables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o
-.PHONY : lib/imgui/imgui_tables.cpp.o
-
-lib/imgui/imgui_tables.i: lib/imgui/imgui_tables.cpp.i
-.PHONY : lib/imgui/imgui_tables.i
-
-# target to preprocess a source file
-lib/imgui/imgui_tables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.i
-.PHONY : lib/imgui/imgui_tables.cpp.i
-
-lib/imgui/imgui_tables.s: lib/imgui/imgui_tables.cpp.s
-.PHONY : lib/imgui/imgui_tables.s
-
-# target to generate assembly for a file
-lib/imgui/imgui_tables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.s
-.PHONY : lib/imgui/imgui_tables.cpp.s
-
-lib/imgui/imgui_widgets.o: lib/imgui/imgui_widgets.cpp.o
-.PHONY : lib/imgui/imgui_widgets.o
-
-# target to build an object file
-lib/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o
-.PHONY : lib/imgui/imgui_widgets.cpp.o
-
-lib/imgui/imgui_widgets.i: lib/imgui/imgui_widgets.cpp.i
-.PHONY : lib/imgui/imgui_widgets.i
-
-# target to preprocess a source file
-lib/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.i
-.PHONY : lib/imgui/imgui_widgets.cpp.i
-
-lib/imgui/imgui_widgets.s: lib/imgui/imgui_widgets.cpp.s
-.PHONY : lib/imgui/imgui_widgets.s
-
-# target to generate assembly for a file
-lib/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.s
-.PHONY : lib/imgui/imgui_widgets.cpp.s
-
-src/source.o: src/source.cpp.o
+src/source.o: src/source.c.o
 .PHONY : src/source.o
 
 # target to build an object file
-src/source.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/source.cpp.o
-.PHONY : src/source.cpp.o
+src/source.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/source.c.o
+.PHONY : src/source.c.o
 
-src/source.i: src/source.cpp.i
+src/source.i: src/source.c.i
 .PHONY : src/source.i
 
 # target to preprocess a source file
-src/source.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/source.cpp.i
-.PHONY : src/source.cpp.i
+src/source.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/source.c.i
+.PHONY : src/source.c.i
 
-src/source.s: src/source.cpp.s
+src/source.s: src/source.c.s
 .PHONY : src/source.s
 
 # target to generate assembly for a file
-src/source.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/source.cpp.s
-.PHONY : src/source.cpp.s
+src/source.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/source.c.s
+.PHONY : src/source.c.s
+
+src/window.o: src/window.c.o
+.PHONY : src/window.o
+
+# target to build an object file
+src/window.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/window.c.o
+.PHONY : src/window.c.o
+
+src/window.i: src/window.c.i
+.PHONY : src/window.i
+
+# target to preprocess a source file
+src/window.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/window.c.i
+.PHONY : src/window.c.i
+
+src/window.s: src/window.c.s
+.PHONY : src/window.s
+
+# target to generate assembly for a file
+src/window.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GenaXIDE.dir/build.make CMakeFiles/GenaXIDE.dir/src/window.c.s
+.PHONY : src/window.c.s
 
 # Help Target
 help:
@@ -400,30 +256,12 @@ help:
 	@echo "... lib/glad/src/glad.o"
 	@echo "... lib/glad/src/glad.i"
 	@echo "... lib/glad/src/glad.s"
-	@echo "... lib/imgui/backends/imgui_impl_opengl3.o"
-	@echo "... lib/imgui/backends/imgui_impl_opengl3.i"
-	@echo "... lib/imgui/backends/imgui_impl_opengl3.s"
-	@echo "... lib/imgui/backends/imgui_impl_sdl3.o"
-	@echo "... lib/imgui/backends/imgui_impl_sdl3.i"
-	@echo "... lib/imgui/backends/imgui_impl_sdl3.s"
-	@echo "... lib/imgui/imgui.o"
-	@echo "... lib/imgui/imgui.i"
-	@echo "... lib/imgui/imgui.s"
-	@echo "... lib/imgui/imgui_demo.o"
-	@echo "... lib/imgui/imgui_demo.i"
-	@echo "... lib/imgui/imgui_demo.s"
-	@echo "... lib/imgui/imgui_draw.o"
-	@echo "... lib/imgui/imgui_draw.i"
-	@echo "... lib/imgui/imgui_draw.s"
-	@echo "... lib/imgui/imgui_tables.o"
-	@echo "... lib/imgui/imgui_tables.i"
-	@echo "... lib/imgui/imgui_tables.s"
-	@echo "... lib/imgui/imgui_widgets.o"
-	@echo "... lib/imgui/imgui_widgets.i"
-	@echo "... lib/imgui/imgui_widgets.s"
 	@echo "... src/source.o"
 	@echo "... src/source.i"
 	@echo "... src/source.s"
+	@echo "... src/window.o"
+	@echo "... src/window.i"
+	@echo "... src/window.s"
 .PHONY : help
 
 

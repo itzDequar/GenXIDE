@@ -1,55 +1,19 @@
 [
 {
   "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/src/source.cpp.o -c /Users/qyour/Documents/GenXIDE/src/source.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/src/source.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/src/source.cpp.o"
+  "command": "/usr/bin/cc  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu17 -arch arm64 -o CMakeFiles/GenaXIDE.dir/src/source.c.o -c /Users/qyour/Documents/GenXIDE/src/source.c",
+  "file": "/Users/qyour/Documents/GenXIDE/src/source.c",
+  "output": "CMakeFiles/GenaXIDE.dir/src/source.c.o"
 },
 {
   "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/lib/imgui/imgui.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o"
+  "command": "/usr/bin/cc  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu17 -arch arm64 -o CMakeFiles/GenaXIDE.dir/src/window.c.o -c /Users/qyour/Documents/GenXIDE/src/window.c",
+  "file": "/Users/qyour/Documents/GenXIDE/src/window.c",
+  "output": "CMakeFiles/GenaXIDE.dir/src/window.c.o"
 },
 {
   "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_draw.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/lib/imgui/imgui_draw.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o"
-},
-{
-  "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_tables.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/lib/imgui/imgui_tables.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o"
-},
-{
-  "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_widgets.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/lib/imgui/imgui_widgets.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o"
-},
-{
-  "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_demo.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/lib/imgui/imgui_demo.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o"
-},
-{
-  "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_sdl3.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_sdl3.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o"
-},
-{
-  "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/c++  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu++20 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_opengl3.cpp",
-  "file": "/Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_opengl3.cpp",
-  "output": "CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o"
-},
-{
-  "directory": "/Users/qyour/Documents/GenXIDE/build",
-  "command": "/usr/bin/cc  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/lib/imgui -I/Users/qyour/Documents/GenXIDE/lib/imgui/backends -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu17 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o -c /Users/qyour/Documents/GenXIDE/lib/glad/src/glad.c",
+  "command": "/usr/bin/cc  -I/Users/qyour/Documents/GenXIDE/lib/glad/include/glad -I/Users/qyour/Documents/GenXIDE/lib/glad/include/KHR -I/Users/qyour/Documents/GenXIDE/src -I/Users/qyour/Documents/GenXIDE/build/lib/SDL/include-revision -I/Users/qyour/Documents/GenXIDE/lib/SDL/include -std=gnu17 -arch arm64 -o CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o -c /Users/qyour/Documents/GenXIDE/lib/glad/src/glad.c",
   "file": "/Users/qyour/Documents/GenXIDE/lib/glad/src/glad.c",
   "output": "CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o"
 },

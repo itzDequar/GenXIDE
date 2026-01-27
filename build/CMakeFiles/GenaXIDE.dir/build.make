@@ -72,122 +72,38 @@ include CMakeFiles/GenaXIDE.dir/flags.make
 CMakeFiles/GenaXIDE.dir/codegen:
 .PHONY : CMakeFiles/GenaXIDE.dir/codegen
 
-CMakeFiles/GenaXIDE.dir/src/source.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/src/source.cpp.o: /Users/qyour/Documents/GenXIDE/src/source.cpp
-CMakeFiles/GenaXIDE.dir/src/source.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GenaXIDE.dir/src/source.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/src/source.cpp.o -MF CMakeFiles/GenaXIDE.dir/src/source.cpp.o.d -o CMakeFiles/GenaXIDE.dir/src/source.cpp.o -c /Users/qyour/Documents/GenXIDE/src/source.cpp
+CMakeFiles/GenaXIDE.dir/src/source.c.o: CMakeFiles/GenaXIDE.dir/flags.make
+CMakeFiles/GenaXIDE.dir/src/source.c.o: /Users/qyour/Documents/GenXIDE/src/source.c
+CMakeFiles/GenaXIDE.dir/src/source.c.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GenaXIDE.dir/src/source.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/src/source.c.o -MF CMakeFiles/GenaXIDE.dir/src/source.c.o.d -o CMakeFiles/GenaXIDE.dir/src/source.c.o -c /Users/qyour/Documents/GenXIDE/src/source.c
 
-CMakeFiles/GenaXIDE.dir/src/source.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/src/source.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/src/source.cpp > CMakeFiles/GenaXIDE.dir/src/source.cpp.i
+CMakeFiles/GenaXIDE.dir/src/source.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GenaXIDE.dir/src/source.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qyour/Documents/GenXIDE/src/source.c > CMakeFiles/GenaXIDE.dir/src/source.c.i
 
-CMakeFiles/GenaXIDE.dir/src/source.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/src/source.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/src/source.cpp -o CMakeFiles/GenaXIDE.dir/src/source.cpp.s
+CMakeFiles/GenaXIDE.dir/src/source.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GenaXIDE.dir/src/source.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qyour/Documents/GenXIDE/src/source.c -o CMakeFiles/GenaXIDE.dir/src/source.c.s
 
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o: /Users/qyour/Documents/GenXIDE/lib/imgui/imgui.cpp
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o -MF CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o.d -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui.cpp
+CMakeFiles/GenaXIDE.dir/src/window.c.o: CMakeFiles/GenaXIDE.dir/flags.make
+CMakeFiles/GenaXIDE.dir/src/window.c.o: /Users/qyour/Documents/GenXIDE/src/window.c
+CMakeFiles/GenaXIDE.dir/src/window.c.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GenaXIDE.dir/src/window.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/src/window.c.o -MF CMakeFiles/GenaXIDE.dir/src/window.c.o.d -o CMakeFiles/GenaXIDE.dir/src/window.c.o -c /Users/qyour/Documents/GenXIDE/src/window.c
 
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/lib/imgui/imgui.cpp > CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.i
+CMakeFiles/GenaXIDE.dir/src/window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GenaXIDE.dir/src/window.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qyour/Documents/GenXIDE/src/window.c > CMakeFiles/GenaXIDE.dir/src/window.c.i
 
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/lib/imgui/imgui.cpp -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.s
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o: /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_draw.cpp
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o -MF CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o.d -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_draw.cpp
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_draw.cpp > CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.i
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_draw.cpp -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.s
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o: /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_tables.cpp
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o -MF CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o.d -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_tables.cpp
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_tables.cpp > CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.i
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_tables.cpp -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.s
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o: /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_widgets.cpp
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o -MF CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_widgets.cpp
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_widgets.cpp > CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.i
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_widgets.cpp -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.s
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o: /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_demo.cpp
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o -MF CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o.d -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_demo.cpp
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_demo.cpp > CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.i
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/lib/imgui/imgui_demo.cpp -o CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.s
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o: /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_sdl3.cpp
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o -MF CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o.d -o CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_sdl3.cpp
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_sdl3.cpp > CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.i
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_sdl3.cpp -o CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.s
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/GenaXIDE.dir/flags.make
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o: /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_opengl3.cpp
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_opengl3.cpp
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.i
-
-CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qyour/Documents/GenXIDE/lib/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.s
+CMakeFiles/GenaXIDE.dir/src/window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GenaXIDE.dir/src/window.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qyour/Documents/GenXIDE/src/window.c -o CMakeFiles/GenaXIDE.dir/src/window.c.s
 
 CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o: CMakeFiles/GenaXIDE.dir/flags.make
 CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o: /Users/qyour/Documents/GenXIDE/lib/glad/src/glad.c
 CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o: CMakeFiles/GenaXIDE.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o -MF CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o.d -o CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o -c /Users/qyour/Documents/GenXIDE/lib/glad/src/glad.c
 
 CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.i: cmake_force
@@ -200,33 +116,21 @@ CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.s: cmake_force
 
 # Object files for target GenaXIDE
 GenaXIDE_OBJECTS = \
-"CMakeFiles/GenaXIDE.dir/src/source.cpp.o" \
-"CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o" \
-"CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o" \
-"CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o" \
-"CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o" \
-"CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o" \
-"CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o" \
-"CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/GenaXIDE.dir/src/source.c.o" \
+"CMakeFiles/GenaXIDE.dir/src/window.c.o" \
 "CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o"
 
 # External object files for target GenaXIDE
 GenaXIDE_EXTERNAL_OBJECTS =
 
-GenaXIDE: CMakeFiles/GenaXIDE.dir/src/source.cpp.o
-GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/imgui/imgui.cpp.o
-GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_draw.cpp.o
-GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_tables.cpp.o
-GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_widgets.cpp.o
-GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/imgui/imgui_demo.cpp.o
-GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o
-GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/imgui/backends/imgui_impl_opengl3.cpp.o
+GenaXIDE: CMakeFiles/GenaXIDE.dir/src/source.c.o
+GenaXIDE: CMakeFiles/GenaXIDE.dir/src/window.c.o
 GenaXIDE: CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o
 GenaXIDE: CMakeFiles/GenaXIDE.dir/build.make
 GenaXIDE: lib/SDL/libSDL3.0.dylib
 GenaXIDE: /Users/qyour/Documents/GenXIDE/lib/SDL/src/dynapi/SDL_dynapi.sym
 GenaXIDE: CMakeFiles/GenaXIDE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable GenaXIDE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/qyour/Documents/GenXIDE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable GenaXIDE"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GenaXIDE.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
