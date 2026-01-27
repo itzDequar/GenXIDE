@@ -4,7 +4,6 @@
 
 
 
-> [!note] Docs
 > Documentation will be available soon after release.
 
 
