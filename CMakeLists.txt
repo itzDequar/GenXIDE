@@ -9,17 +9,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(lib/SDL)
+add_subdirectory(lib/cimgui)
 
 include_directories(lib/glad/include/glad)
 include_directories(lib/glad/include/KHR)
-include_directories(lib/imgui)
+include_directories(lib/cimgui)
 #include_directories(lib/imgui/backends)
 include_directories(src)
 
 set(LIB_SOURCES
-  lib/cimgui/imgui.cpp
-  lib/cimgui/imgui_impl.cpp
-
   lib/glad/src/glad.c
 )
 
