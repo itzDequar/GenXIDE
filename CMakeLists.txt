@@ -21,6 +21,7 @@ set(LIB_SOURCES
 add_executable(${PROJECT_NAME}
   src/source.cpp
   src/window.cpp
+  src/renderer.cpp
 
   ${LIB_SOURCES}
 )
