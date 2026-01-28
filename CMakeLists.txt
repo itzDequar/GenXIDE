@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(lib/SDL)
+add_subdirectory(libs/bgfx)
 
 include_directories(src)
 
@@ -23,4 +24,24 @@ add_executable(${PROJECT_NAME}
   ${LIB_SOURCES}
 )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3 m)
+target_link_libraries(${PROJECT_NAME} PRIVATE
+  SDL3::SDL3
+  bgfx::bgfx       # Сама графика
+  bgfx::bimg       # Работа с картинками (нужна для текстур)
+  bgfx::bx         # Базовые утилиты
+)
+
+# for MacOS
+if(APPLE)
+  target_link_libraries(GenaXIDE PRIVATE "-framework Metal" "-framework Cocoa" "-framework QuartzCore")
+endif()
+
+# for Linux:
+if(UNIX AND NOT APPLE)
+  target_link_libraries(GenaXIDE PRIVATE GL X11 dl pthread)
+endif()
+
+# for Windows:
+if(WIN32)
+  target_link_libraries(GenaXIDE PRIVATE gdi32 user32 psapi)
+endif()
