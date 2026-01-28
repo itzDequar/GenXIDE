@@ -19,8 +19,8 @@ set(LIB_SOURCES
 )
 
 add_executable(${PROJECT_NAME}
-  src/source.c
-  src/window.c
+  src/source.cpp
+  src/window.cpp
 
   ${LIB_SOURCES}
 )
