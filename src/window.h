@@ -12,8 +12,6 @@ class Window
   private:
   bool isRun{};
   SDL_Window* window{};
-  SDL_Renderer* renderer{};
-  //SDL_Surface* surface{};
 
   bool input();
 };

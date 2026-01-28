@@ -17,26 +17,12 @@ bool Window::init( const char* title, int w, int h, SDL_InitFlags windowFlags, S
     success = false;
   }
 
-  if ( renderer = SDL_CreateRenderer(window, NULL); !renderer )
-  {
-    std::cerr << "SDL Renderer Not Created: " << SDL_GetError() << std::endl;
-    success = false;
-  }
-
-  if ( success )
-  {
-    isRun = true;
-    return true;
-  } else
-  {
-    isRun = false;
-    return false;
-  }
+  isRun = success;
+  return success;
 }
 
 bool Window::destroy()
 {
-  SDL_DestroyRenderer( renderer );
   SDL_DestroyWindow( window );
   SDL_Quit();
   return true;
