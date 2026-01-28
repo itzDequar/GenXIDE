@@ -1,8 +1,0 @@
-/Users/qyour/Documents/GenXIDE/build/CMakeFiles/GenaXIDE.dir
-/Users/qyour/Documents/GenXIDE/build/CMakeFiles/edit_cache.dir
-/Users/qyour/Documents/GenXIDE/build/CMakeFiles/rebuild_cache.dir
-/Users/qyour/Documents/GenXIDE/build/lib/SDL/CMakeFiles/SDL3-shared.dir
-/Users/qyour/Documents/GenXIDE/build/lib/SDL/CMakeFiles/SDL3_test.dir
-/Users/qyour/Documents/GenXIDE/build/lib/SDL/CMakeFiles/SDL_uclibc.dir
-/Users/qyour/Documents/GenXIDE/build/lib/SDL/CMakeFiles/edit_cache.dir
-/Users/qyour/Documents/GenXIDE/build/lib/SDL/CMakeFiles/rebuild_cache.dir

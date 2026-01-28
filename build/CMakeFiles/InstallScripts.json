@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/qyour/Documents/GenXIDE/build/cmake_install.cmake",
-		"/Users/qyour/Documents/GenXIDE/build/lib/SDL/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

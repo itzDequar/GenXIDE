@@ -1,1 +1,0 @@
-/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/GenaXIDE.dir/src/source.c.o CMakeFiles/GenaXIDE.dir/src/window.c.o CMakeFiles/GenaXIDE.dir/lib/glad/src/glad.c.o -o GenaXIDE  -Wl,-rpath,/Users/qyour/Documents/GenXIDE/build/lib/SDL lib/SDL/libSDL3.0.dylib -lm
