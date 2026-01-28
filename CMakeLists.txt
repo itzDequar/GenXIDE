@@ -10,12 +10,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(lib/SDL)
 
-# include_directories(lib/glad/include/glad)
-# include_directories(lib/glad/include/KHR)
 include_directories(src)
 
 set(LIB_SOURCES
-  # lib/glad/src/glad.c
 )
 
 add_executable(${PROJECT_NAME}
