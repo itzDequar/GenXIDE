@@ -3,7 +3,7 @@
 class Renderer
 {
   public:
-  bool init();
+  bool init( int width, int height );
 
   void renderer();
 
