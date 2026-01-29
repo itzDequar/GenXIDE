@@ -8,8 +8,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+set(BGFX_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(BGFX_BUILD_TOOLS OFF CACHE BOOL "" FORCE)
+
 add_subdirectory(lib/SDL)
-add_subdirectory(libs/bgfx)
+add_subdirectory(lib/bgfx)
 
 include_directories(src)
 
@@ -26,9 +29,9 @@ add_executable(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
   SDL3::SDL3
-  bgfx::bgfx       # Сама графика
-  bgfx::bimg       # Работа с картинками (нужна для текстур)
-  bgfx::bx         # Базовые утилиты
+  bgfx
+  bimg
+  bx
 )
 
 # for MacOS
