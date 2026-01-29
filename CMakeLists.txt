@@ -11,9 +11,10 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(BGFX_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(BGFX_BUILD_TOOLS OFF CACHE BOOL "" FORCE)
 
-add_subdirectory(lib/SDL)
+add_subdirectory(lib/SDL2)
 add_subdirectory(lib/bgfx)
 
+include_directories(lib/SDL2/include)
 include_directories(src)
 
 set(LIB_SOURCES
@@ -29,7 +30,7 @@ add_executable(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
-  SDL3::SDL3
+  SDL2::SDL2
   bgfx
   bimg
   bx
