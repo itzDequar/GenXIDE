@@ -23,6 +23,7 @@ add_executable(${PROJECT_NAME}
   src/source.cpp
   src/window.cpp
   src/renderer.cpp
+  src/grid.cpp
 
   ${LIB_SOURCES}
 )
