@@ -25,6 +25,9 @@ class Grid
   public:
   bool init( unsigned short maxEnergy, unsigned short maxGenome, int width, int height, bool isHV );
 
+  int getWidth() { return width; };
+  int getHeight() { return height; }
+
   private:
   std::vector<Cell> grid{};
 

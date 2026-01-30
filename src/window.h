@@ -1,7 +1,6 @@
 #pragma once
 #include <SDL.h>
-#include <SDL2/SDL_syswm.h>
-#include <bgfx/bgfx.h>
+#include <SDL_syswm.h>
 #include <renderer.h>
 
 class Window

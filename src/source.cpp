@@ -14,14 +14,14 @@ int main( int argc, char* args[] )
     std::cerr << "FAILED TO INITIALIZE WINDOW." << std::endl;
     return 1;
   }
-  if ( !ren.init( win.getWmi(), win.getWidth(), win.getHeight() ) )
-  {
-    std::cerr << "FAILED TO INITIALIZE RENDERER." << std::endl;
-    return 1;
-  }
   if ( !gri.init( 100, 256, 128, 128, true) )
   {
     std::cerr << "FAILED TO INITIALIZE GRID." << std::endl;
+    return 1;
+  }
+  if ( !ren.init( win.getWmi(), win.getWidth(), win.getHeight(), gri.getWidth(), gri.getHeight() ) )
+  {
+    std::cerr << "FAILED TO INITIALIZE RENDERER." << std::endl;
     return 1;
   }
 

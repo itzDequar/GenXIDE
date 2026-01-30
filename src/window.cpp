@@ -1,4 +1,3 @@
-#include <SDL2/SDL_syswm.h>
 #include <iostream>
 #include <window.h>
 
