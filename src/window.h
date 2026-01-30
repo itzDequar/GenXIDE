@@ -11,10 +11,11 @@ class Window
   bool input();
 
   bool getIsRun() { return isRun; };
-  SDL_Event* getEvent() { return &event; };
+  SDL_Event& getEvent() { return event; };
   SDL_SysWMinfo getWmi() { return wmi; };
   int getWidth() { return width; };
   int getHeight() { return height; };
+  SDL_Window* getWindow() { return window; };
 
   private:
   bool isRun{};

@@ -19,7 +19,7 @@ int main( int argc, char* args[] )
     std::cerr << "FAILED TO INITIALIZE GRID." << std::endl;
     return 1;
   }
-  if ( !ren.init( win.getWmi(), win.getWidth(), win.getHeight(), gri.getWidth(), gri.getHeight() ) )
+  if ( !ren.init( win.getWmi(), win.getWidth(), win.getHeight(), gri.getWidth(), gri.getHeight(), gri.getPixels() ) )
   {
     std::cerr << "FAILED TO INITIALIZE RENDERER." << std::endl;
     return 1;
@@ -27,13 +27,13 @@ int main( int argc, char* args[] )
 
   while ( win.getIsRun() )
   {
-    while ( SDL_PollEvent( win.getEvent() ) )
+    while ( SDL_PollEvent( &win.getEvent() ) )
     {
       win.input();
-      ren.sizeChanged( *win.getEvent() );
+      ren.sizeChanged( win.getEvent(), win.getWindow() );
     }
-
-    ren.renderer();
+    gri.update();
+    ren.renderer( gri.getPixels() );
   }
 
   if ( !ren.destroy() )

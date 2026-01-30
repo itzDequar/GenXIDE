@@ -25,10 +25,16 @@ class Grid
   public:
   bool init( unsigned short maxEnergy, unsigned short maxGenome, int width, int height, bool isHV );
 
+  void updatePixels();
+
+  void update();
+
   int getWidth() { return width; };
   int getHeight() { return height; }
+  std::vector<uint32_t>& getPixels() { return pixels; };
 
   private:
+  std::vector<uint32_t> pixels{};
   std::vector<Cell> grid{};
 
   unsigned int epoch{ 0 };
@@ -42,8 +48,6 @@ class Grid
   int height{};
 
   std::mt19937 rnd{};
-
-  void update();
 
   void upWood( Cell* c );
   void upLeaf( Cell* c );

@@ -20,6 +20,7 @@ bool Grid::init( unsigned short maxEnergy, unsigned short maxGenome, int width, 
   this->height = height;
 
   grid.resize(width*height);
+  pixels.resize(width*height);
 
   for ( Cell& c : grid )
   {
@@ -29,11 +30,18 @@ bool Grid::init( unsigned short maxEnergy, unsigned short maxGenome, int width, 
   return success;
 }
 
+void Grid::updatePixels()
+{
+  for ( int i = 0; i < (width*height); i++ )
+  {
+    pixels[i] = (0xFF << 24) | (grid[i].b << 16) | (grid[i].g << 8) | grid[i].r;
+  }
+}
 
 void Grid::update()
 {
-  for (Cell& c : grid) {
-
+  for (Cell& c : grid)
+  {
     switch ( c.T )
     {
       case TYPE_EMPTY: continue;
@@ -44,6 +52,7 @@ void Grid::update()
     }
 
   }
+  updatePixels();
   epoch++;
 }
 
