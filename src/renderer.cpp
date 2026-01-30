@@ -17,7 +17,7 @@ void Renderer::sizeChanged( SDL_Event event )
 {
   if ( event.type == SDL_WINDOWEVENT && event.window.event == SDL_WINDOWEVENT_SIZE_CHANGED )
   {
-    
+
   }
 }
 
