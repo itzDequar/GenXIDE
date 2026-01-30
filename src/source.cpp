@@ -32,6 +32,7 @@ int main( int argc, char* args[] )
       win.input();
       ren.sizeChanged( *win.getEvent() );
     }
+
     ren.renderer();
   }
 
