@@ -1,5 +1,4 @@
-#include "SDL_events.h"
-#include "SDL_video.h"
+#include <SDL2/SDL_syswm.h>
 #include <iostream>
 #include <window.h>
 
@@ -22,6 +21,12 @@ bool Window::init( const char* title, int w, int h, Uint32 windowFlags, Uint32 i
     success = false;
   }
 
+  SDL_VERSION( &wmi.version );
+  if ( !SDL_GetWindowWMInfo(window, &wmi) ) {
+    std::cerr << "SDL WMI Not Getted: " << SDL_GetError() << std::endl;
+    success = false;
+  }
+
   isRun = success;
   return success;
 }
@@ -33,31 +38,11 @@ bool Window::destroy()
   return true;
 }
 
-bool Window::run()
-{
-  if ( !isRun )
-  {
-    return false;
-  }
-
-  while ( isRun )
-  {
-    input();
-    SDL_Delay(16);
-  }
-
-  return true;
-}
-
 bool Window::input()
 {
-  SDL_Event event;
-  while ( SDL_PollEvent(&event) )
+  if ( event.type == SDL_QUIT )
   {
-    if ( event.type == SDL_QUIT )
-    {
-      isRun = false;
-    }
+    isRun = false;
   }
 
   return true;
