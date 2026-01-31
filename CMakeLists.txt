@@ -15,9 +15,15 @@ add_subdirectory(lib/SDL2)
 
 include_directories(lib/SDL2/include)
 include_directories(lib/glad/include)
+include_directories(lib/imgui)
 include_directories(src)
 
 set(LIB_SOURCES
+  lib/imgui/imgui.cpp
+  lib/imgui/imgui_draw.cpp
+  lib/imgui/imgui_tables.cpp
+  lib/imgui/imgui_widgets.cpp
+
   lib/glad/src/glad.c
 )
 
