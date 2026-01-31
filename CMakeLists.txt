@@ -14,9 +14,11 @@ set(BGFX_BUILD_TOOLS OFF CACHE BOOL "" FORCE)
 add_subdirectory(lib/SDL2)
 
 include_directories(lib/SDL2/include)
+include_directories(lib/glad/include)
 include_directories(src)
 
 set(LIB_SOURCES
+  lib/glad/src/glad.c
 )
 
 add_executable(${PROJECT_NAME}
