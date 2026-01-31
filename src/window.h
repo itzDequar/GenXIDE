@@ -12,7 +12,6 @@ class Window
 
   bool getIsRun() { return isRun; };
   SDL_Event& getEvent() { return event; };
-  SDL_SysWMinfo getWmi() { return wmi; };
   int getWidth() { return width; };
   int getHeight() { return height; };
   SDL_Window* getWindow() { return window; };
@@ -22,8 +21,8 @@ class Window
 
   SDL_Event event;
 
+  SDL_GLContext glCtx{};
   SDL_Window* window{};
-  SDL_SysWMinfo wmi{};
 
   int width{};
   int height{};

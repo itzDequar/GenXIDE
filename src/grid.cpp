@@ -44,11 +44,11 @@ void Grid::update()
   {
     switch ( c.T )
     {
-      case TYPE_EMPTY: continue;
-      case TYPE_WOOD: upWood( &c );
-      case TYPE_LEAF: upLeaf( &c );
-      case TYPE_ROOT: upRoot( &c );
-      case TYPE_SPROUT: upSprout( &c );
+      case TYPE_EMPTY: continue; break;
+      case TYPE_WOOD: upWood( &c ); break;
+      case TYPE_LEAF: upLeaf( &c ); break;
+      case TYPE_ROOT: upRoot( &c ); break;
+      case TYPE_SPROUT: upSprout( &c ); break;
     }
 
   }
