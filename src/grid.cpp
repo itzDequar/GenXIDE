@@ -24,8 +24,9 @@ bool Grid::init( unsigned short maxEnergy, unsigned short maxGenome, int width, 
 
   for ( Cell& c : grid )
   {
-    c = makeEmpty();
+    c = makeSprout();
   }
+  updatePixels();
 
   return success;
 }
@@ -168,12 +169,12 @@ Cell Grid::makeSprout()
     std::uniform_int_distribution<unsigned char> d(0, maxGenome - 1);
     gen = d(rnd);
   }
-  c.r = 255;
-  c.g = 255;
-  c.b = 255;
-  // c.r = (uint8_t)((uint8_t)c.genome[0] / maxGenome) * 254;
-  // c.g = (uint8_t)((uint8_t)c.genome[1] / maxGenome) * 254;
-  // c.b = (uint8_t)((uint8_t)c.genome[2] / maxGenome) * 254;
+  // c.r = 255;
+  // c.g = 255;
+  // c.b = 255;
+  c.r = (uint8_t)( (float)c.genome[0] / (maxGenome - 1) * 255.0f );
+  c.g = (uint8_t)( (float)c.genome[1] / (maxGenome - 1) * 255.0f );
+  c.b = (uint8_t)( (float)c.genome[2] / (maxGenome - 1) * 255.0f );
 
   return c;
 }

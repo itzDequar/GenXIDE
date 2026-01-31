@@ -18,7 +18,7 @@ int main( int argc, char* args[] )
     std::cerr << "FAILED TO INITIALIZE WINDOW." << std::endl;
     return 1;
   }
-  if ( !gri.init( 100, 256, 512, 256, true) )
+  if ( !gri.init( 100, 256, 1024, 512, true) )
   {
     std::cerr << "FAILED TO INITIALIZE GRID." << std::endl;
     return 1;
