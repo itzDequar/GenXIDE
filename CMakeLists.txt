@@ -24,6 +24,12 @@ set(LIB_SOURCES
   lib/imgui/imgui_tables.cpp
   lib/imgui/imgui_widgets.cpp
 
+  lib/imgui/backends/imgui_impl_sdl2.cpp
+  lib/imgui/backends/imgui_impl_sdl2.h
+  lib/imgui/backends/imgui_impl_opengl3.cpp
+  lib/imgui/backends/imgui_impl_opengl3.h
+
+
   lib/glad/src/glad.c
 )
 
