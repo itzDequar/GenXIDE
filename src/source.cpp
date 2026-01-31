@@ -18,7 +18,7 @@ int main( int argc, char* args[] )
     std::cerr << "FAILED TO INITIALIZE WINDOW." << std::endl;
     return 1;
   }
-  if ( !gri.init( 100, 256, 128, 128, true) )
+  if ( !gri.init( 100, 256, 512, 256, true) )
   {
     std::cerr << "FAILED TO INITIALIZE GRID." << std::endl;
     return 1;
@@ -34,6 +34,7 @@ int main( int argc, char* args[] )
     while ( SDL_PollEvent( &win.getEvent() ) )
     {
       win.input();
+      ren.panZoom(win);
       ren.sizeChanged( win.getEvent(), win.getWindow() );
     }
     gri.update();
